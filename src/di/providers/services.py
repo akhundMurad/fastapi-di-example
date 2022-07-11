@@ -1,7 +1,7 @@
-from src.tasks_sender.base import TasksSender
 from src.dao.products import ProductDAO
-from src.services.products import ProductService
 from src.services.mails import MailsService
+from src.services.products import ProductService
+from src.tasks_sender.base import TasksSender
 
 
 def provide_products_service_stub():

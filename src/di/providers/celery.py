@@ -1,5 +1,4 @@
 from celery import Celery
-
 from src.tasks_sender.celery import CeleryTasksSender
 
 

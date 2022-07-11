@@ -1,0 +1,3 @@
+class MailsService:
+    def send_mail(self):  # Doing some stuff with mails.
+        ...
